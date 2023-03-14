@@ -1,9 +1,4 @@
-import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.subplots as sp
-import plotly.graph_objects as go
 
 # dash
 from jupyter_dash import JupyterDash
@@ -12,7 +7,7 @@ from dash.dependencies import Output, Input
 import dash_bootstrap_components as dbc
 import plotly.express as px
 from dash import no_update
-import dash_cute_charts
+
 
 pd.set_option('display.max_columns', None)
 
